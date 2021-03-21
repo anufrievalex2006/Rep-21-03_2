@@ -7,3 +7,4 @@ D:\C# Projects (Anufriev)\Project 10\WindowsFormsApp10\WindowsFormsApp10\obj\Deb
 D:\C# Projects (Anufriev)\Project 10\WindowsFormsApp10\WindowsFormsApp10\obj\Debug\WindowsFormsApp10.csproj.CoreCompileInputs.cache
 D:\C# Projects (Anufriev)\Project 10\WindowsFormsApp10\WindowsFormsApp10\obj\Debug\WindowsFormsApp10.exe
 D:\C# Projects (Anufriev)\Project 10\WindowsFormsApp10\WindowsFormsApp10\obj\Debug\WindowsFormsApp10.pdb
+D:\C# Projects (Anufriev)\Project 10\WindowsFormsApp10\WindowsFormsApp10\obj\Debug\WindowsFormsApp10.Form1.resources

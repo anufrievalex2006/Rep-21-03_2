@@ -29,13 +29,47 @@ namespace WindowsFormsApp10
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.msMenu = new System.Windows.Forms.MenuStrip();
+            this.msbFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.msMenu.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // msMenu
+            // 
+            this.msMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.msbFile});
+            this.msMenu.Location = new System.Drawing.Point(0, 0);
+            this.msMenu.Name = "msMenu";
+            this.msMenu.Size = new System.Drawing.Size(800, 24);
+            this.msMenu.TabIndex = 0;
+            this.msMenu.Text = "menuStrip1";
+            // 
+            // msbFile
+            // 
+            this.msbFile.Name = "msbFile";
+            this.msbFile.Size = new System.Drawing.Size(48, 20);
+            this.msbFile.Text = "Файл";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.msMenu);
+            this.MainMenuStrip = this.msMenu;
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.msMenu.ResumeLayout(false);
+            this.msMenu.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip msMenu;
+        private System.Windows.Forms.ToolStripMenuItem msbFile;
     }
 }
 
